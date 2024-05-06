@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#Code modified by NeverBeAlone12
 """The setup and build script for the python-telegram-bot library."""
 import subprocess
 import sys
@@ -20,6 +21,7 @@ def get_requirements() -> List[str]:
             requirements_list.append(install.strip())
 
     return requirements_list
+
 
 
 def get_packages_requirements(raw: bool = False) -> Tuple[List[str], List[str]]:
@@ -129,3 +131,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+#@OnlyFlmaboyant was here, for help !
